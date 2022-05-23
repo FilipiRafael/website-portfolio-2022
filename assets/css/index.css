@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #202329;
+}
+
+body nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.1);
+}
+
+body nav img {
+    width: 180px;
+}
+
+body nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+body nav a {
+    color: lightgray;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+}
+
+body nav a:hover {
+    color: #FFF;
+    text-decoration: double;
+}
