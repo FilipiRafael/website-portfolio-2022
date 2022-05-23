@@ -13,15 +13,23 @@
 <body>
     <nav>
         <img src="./assets/images/logo.svg" alt="logo" />
-        <ul>
+        <ul class="nav-list">
             <li><a href="">Quem sou</a></li>
             <li><a href="">Projetos</a></li>
             <li><a href="">Conhecimentos</a></li>
             <li><a href="">Contato</a></li>
         </ul>
+        <button class="nav-button" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="close-button" onclick="closeNav()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
     </nav>
     <main>
 
     </main>
+    <script src="./assets/js/mobile-navbar.js"></script>
+    <script src="https://kit.fontawesome.com/b9b6231623.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,19 +3,21 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
     width: 100%;
     height: 100vh;
     background-color: #202329;
+    overflow-x: hidden;
 }
 
 body nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
     border-bottom: 0.3px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -41,4 +43,47 @@ body nav a {
 body nav a:hover {
     color: #FFF;
     text-decoration: double;
+}
+
+body nav .nav-button {
+    color: #FFF;
+    display: none;
+}
+
+body nav .close-button {
+    color: #FFF;
+    display: none;
+}
+
+@media screen and (max-width: 999px) {
+    body nav .nav-button {
+        display: block;
+        font-size: 1.8rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    body nav ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 8vh;
+        width: 100%;
+        height: 52vh;
+        padding-top: 4rem;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+
+    body nav a {
+        font-size: 1.6rem;
+    }
+
+    body nav .close-button {
+        font-size: 2rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
 }
