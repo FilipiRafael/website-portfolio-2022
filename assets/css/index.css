@@ -4,13 +4,13 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 body {
     width: 100%;
     height: 100vh;
     background-color: #202329;
-    overflow-x: hidden;
 }
 
 body nav {
