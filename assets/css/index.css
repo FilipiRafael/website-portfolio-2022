@@ -197,6 +197,57 @@ body nav .close-button {
     line-height: 2rem;
 }
 
+.container__projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 8rem;
+    background: linear-gradient(135deg, #0037ffaf, #47ddffba), url('../images/background-montain.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container__projects div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__projects i {
+    font-size: 2.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container__projects i:hover {
+    color: #47DDFF;
+}
+
+.container__projects h2 {
+    color: #FFF;
+    font-weight: 700;
+    margin-right: 1rem;
+    font-size: 2.6rem;
+}
+
+.container__projects ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 6rem 0 0 0;
+}
+
+.container__projects ul li {
+    width: 340px;
+    height: 180px;
+    margin: 0 1rem;
+    background-color: #202329;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 999px) {
 
     body nav {
