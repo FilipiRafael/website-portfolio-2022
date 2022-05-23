@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -22,7 +22,7 @@ body nav {
 }
 
 body nav img {
-    width: 180px;
+    width: 190px;
 }
 
 body nav ul {
@@ -42,7 +42,6 @@ body nav a {
 
 body nav a:hover {
     color: #FFF;
-    text-decoration: double;
 }
 
 body nav .nav-button {
@@ -53,6 +52,68 @@ body nav .nav-button {
 body nav .close-button {
     color: #FFF;
     display: none;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2rem 14rem;
+}
+
+.container__home {
+    height: 78vh;
+}
+
+.container__home .informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}  
+
+.container__home .informations span {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.container__home .informations h1 {
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.container__home .informations button {
+    width: 50%;
+    padding: 1rem 5rem;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 1px solid #08D0FF;
+    color: #FFF;
+    background-image: linear-gradient(to right, #47DDFF, #0038FF, #0038FF,#47DDFF);
+    background-size: 300%;
+    background-position: right;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.container__home .informations button:hover {
+    background-position: left;
+    width: 55%;
+}
+
+.container__home .banner {
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__home .banner img {
+    min-width: 580px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 999px) {
