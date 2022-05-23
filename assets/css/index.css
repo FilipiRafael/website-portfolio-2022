@@ -56,6 +56,11 @@ body nav .close-button {
 }
 
 @media screen and (max-width: 999px) {
+
+    body nav {
+        padding-top: 1rem;
+    }
+
     body nav .nav-button {
         display: block;
         font-size: 1.8rem;
