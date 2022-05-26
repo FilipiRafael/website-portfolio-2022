@@ -203,7 +203,7 @@ body nav .close-button {
     justify-content: center;
     align-items: center;
     padding: 2rem 8rem;
-    background: linear-gradient(135deg, #0037ffc8, #47ddffd3), url('../images/background-montain.svg');
+    background: linear-gradient(135deg, #0037ffc8, #47ddffd3), url('../images/background-montain.svg') fixed;
     background-size: cover;
     background-position: center;
 }
