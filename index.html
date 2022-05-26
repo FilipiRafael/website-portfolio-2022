@@ -56,19 +56,49 @@
         </section>
 
         <section id="projects" class="container container__projects">
-            <div>
+            <div class="title-projects">
                 <h2>Projetos</h2>
                 <i class="fa-solid fa-laptop-code"></i>
             </div>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+            <div class="wrapper">
+                <div class="card">
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>Card One</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis quidem cum voluptatibus quod.</p>
+                        <a href="https://github.com/filipirafael" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>02</h2>
+                        <h3>Card Two</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis quidem cum voluptatibus quod.</p>
+                        <a href="https://github.com/filipirafael" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>Card Three</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis quidem cum voluptatibus quod.</p>
+                        <a href="https://github.com/filipirafael" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
     <script src="./assets/js/mobile-navbar.js"></script>
     <script src="https://kit.fontawesome.com/b9b6231623.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/vanilla-tilt.js"></script>
+    <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+	    });
+    </script>
 </body>
 </html>
