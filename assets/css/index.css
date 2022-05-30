@@ -321,6 +321,9 @@ body nav .close-button {
     align-items: center;
     flex-direction: column;
     padding: 2rem 8rem;
+    background-image: url('../images/background-knowledge.svg');
+    background-position: center;
+    background-size: cover;
 }
 
 .container__knowledge .title-knowledge {
@@ -345,6 +348,90 @@ body nav .close-button {
 
 .container__knowledge .title-knowledge i:hover {
     color: #47DDFF;
+}
+
+.container__knowledge .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 100%;
+    overflow: visible;
+}
+
+.container__knowledge .wrapper .card-knowledge {
+    width: 80vw;  
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.container__knowledge .title-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.container__knowledge .title-card i {
+    color: #FFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container__knowledge .title-card i:hover {
+    color: #47DDFF;
+}
+
+.container__knowledge .wrapper .card-knowledge div h3 {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.container__knowledge .wrapper .card-knowledge div ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.container__knowledge .wrapper .card-knowledge div ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.container__knowledge .wrapper .card-knowledge div ul li img {
+    width: 21.5px;
+    margin-right: 0.8rem;
+}
+
+.container__knowledge .wrapper .card-knowledge div ul li span {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.container__knowledge .wrapper .card-knowledge div ul i {
+    color: #FFF;
+    font-size: 1.25rem;
+    margin-right: 0.8rem;
 }
 
 .container__articles {
