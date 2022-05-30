@@ -315,6 +315,38 @@ body nav .close-button {
     box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
 }
 
+.container__knowledge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 8rem;
+}
+
+.container__knowledge .title-knowledge {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+}
+
+.container__knowledge .title-knowledge h2 {
+    color: #FFF;
+    font-size: 2.6rem;
+    margin-right: 1rem;
+}
+
+.container__knowledge .title-knowledge i {
+    color: #FFF;
+    font-size: 2.2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.container__knowledge .title-knowledge i:hover {
+    color: #47DDFF;
+}
+
 .container__articles {
     display: flex;
     flex-direction: column;
