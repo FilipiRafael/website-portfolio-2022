@@ -68,6 +68,23 @@ body nav .close-button {
     display: none;
 }
 
+body .top-button {
+    position: sticky;
+    padding: 0 4rem;
+    top: 80vh;
+    font-size: 50px;
+}
+
+body .top-button a i {
+    color: #47DDFF;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+body .top-button a i:hover {
+    opacity: 1;
+}
+
 .container {
     height: 100vh;
     display: grid;
