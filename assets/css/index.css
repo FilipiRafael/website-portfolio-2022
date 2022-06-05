@@ -73,6 +73,8 @@ body .top-button {
     padding: 0 4rem;
     top: 80vh;
     font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 body .top-button a i {
