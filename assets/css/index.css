@@ -71,7 +71,7 @@ body nav .close-button {
 body .top-button {
     position: sticky;
     padding: 0 4rem;
-    top: 80vh;
+    top: 86vh;
     font-size: 50px;
     display: flex;
     justify-content: flex-end;
