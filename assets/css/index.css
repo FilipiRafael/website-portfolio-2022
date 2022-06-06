@@ -116,7 +116,9 @@ body nav .close-button {
     font-weight: 700;
 }
 
-.container__home .informations a {
+/* CSS OLD BUTTON */
+
+/* .container__home .informations a {
     width: 50%;
     padding: 1rem 5rem;
     margin: 1rem 0;
@@ -136,7 +138,7 @@ body nav .close-button {
     background-position: left;
     width: 55%;
     padding: 1rem 6rem;
-}
+} */
 
 .container__home .banner {
     overflow: hidden;
