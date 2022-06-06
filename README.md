@@ -9,7 +9,7 @@ A ideia do projeto foi para aplicar, práticar e melhorar minhas habilidades té
 
 - [Acesse meu site - Produção](https://filipirafael.com)
 
-**Acesse o github pages (Versão de Homologação)**: https://filipirafael.github.io/website-pessoal/
+**Acesse o github pages (Versão de Homologação)**: https://filipirafael.github.io/website-portfolio-2022/
 
 ## Novas versões
 Conforme vou adquirindo novas habilidades, irei atualizando o projeto em novas versões. 
