@@ -606,7 +606,7 @@ body nav .close-button {
 
 .container__articles .card .content h2 {
     position: absolute;
-    top: -130px;
+    top: -110px;
     right: -20px;
     font-size: 12em;
     color: rgba(255, 255, 255, 0.2);
