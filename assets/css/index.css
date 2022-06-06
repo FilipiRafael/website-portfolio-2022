@@ -131,7 +131,7 @@ body nav .close-button {
     cursor: pointer;
     transition: all 0.8s;
     text-decoration: none;
-    box-shadow: 0 0 10px #47DDFF, 0 0 40px #0038FF, 0 0 40px #0038FF;
+    box-shadow: 0 0 5px #47DDFF, 0 0 20px #0038FF, 0 0 20px #0038FF;
 }
 
 .container__home .informations a:hover {
