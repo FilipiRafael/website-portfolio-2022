@@ -412,7 +412,7 @@ body nav .close-button {
     align-items: center;
     flex-direction: column;
     padding: 2rem 8rem;
-    background-image: url('../images/background-knowledge.svg');
+    background-image: url('../images/background-knowledge-transparent.svg');
     background-position: center;
     background-size: cover;
 }
