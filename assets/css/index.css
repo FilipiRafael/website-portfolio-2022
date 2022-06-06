@@ -726,6 +726,12 @@ footer ul li a i:hover {
     color: #55e1ff;
 }
 
+.container__contact {
+    background-image: url('../images/background-knowledge-transparent.svg');
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (max-width: 999px) {
 
     * {
