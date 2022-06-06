@@ -11,6 +11,7 @@
     <meta name="theme-color" content="#0038FF" />
     <title>Filipi Rafael | FrontEnd Developer</title>
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <nav id="home">
@@ -66,7 +67,7 @@
                 <h2>Projetos</h2>
                 <i class="fa-solid fa-laptop-code"></i>
             </div>
-            <div class="wrapper">
+            <!-- <div class="wrapper">
                 <div class="card">
                     <div class="content">
                         <h2>01</h2>
@@ -91,8 +92,39 @@
                         <a href="https://github.com/filipirafael" target="_blank">Saiba mais</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <section class="container container__swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="content">
+                            <h2>01</h2>
+                            <h3>Em breve</h3>
+                            <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
+                            <a href="https://github.com/filipirafael" target="_blank">Saiba mais</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="content">
+                            <h2>02</h2>
+                            <h3>Em breve</h3>
+                            <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
+                            <a href="https://github.com/filipirafael" target="_blank">Saiba mais</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="content">
+                            <h2>03</h2>
+                            <h3>Em breve</h3>
+                            <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
+                            <a href="https://github.com/filipirafael" target="_blank">Saiba mais</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
         </section>
+
 
         <section id="knowledge" class="container container__knowledge">
             <div class="title-knowledge">
@@ -199,6 +231,16 @@
             glare: true,
             "max-glare": 1,
 	    });
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
     </script>
 </body>
 </html>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow: visible;
 }
 
 /* Scrollbar edit */
@@ -13,18 +13,18 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #202329; 
+    background: #000; 
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #0037ffa0; 
+    background: #104DF1; 
     border-radius: 1rem;
 }
 
 body {
     width: 100%;
     height: 100vh;
-    background-color: #202329;
+    background-color: #000;
 }
 
 body nav {
@@ -32,7 +32,7 @@ body nav {
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
-    border-bottom: 0.3px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2.5px solid #104DF1;
 }
 
 body nav img {
@@ -47,7 +47,7 @@ body nav ul {
 }
 
 body nav a {
-    color: lightgray;
+    color: #FFF;
     text-decoration: none;
     margin: 0 1.5rem;
     font-size: 1.1rem;
@@ -55,7 +55,7 @@ body nav a {
 }
 
 body nav a:hover {
-    color: #FFF;
+    color: #104DF1;
 }
 
 body nav .nav-button {
@@ -78,13 +78,12 @@ body .top-button {
 }
 
 body .top-button a i {
-    color: #47DDFF;
-    opacity: 0.6;
+    color: #104DF1;
     transition: all 0.5s;
 }
 
 body .top-button a i:hover {
-    opacity: 1;
+    color: #47ddff;
 }
 
 .container {
@@ -151,10 +150,6 @@ body .top-button a i:hover {
     cursor: pointer;
 }
 
-.container__about {
-    background-color: #121417;
-}
-
 .container__about .banner {
     display: flex;
     align-items: center;
@@ -164,7 +159,7 @@ body .top-button a i:hover {
 .container__about .banner img {
     min-width: 410px;
     border-radius: 50%;
-    border: 3px solid #47DDFF;
+    border: 3px solid #104DF1;
     cursor: pointer;
     transition: all 0.6s;
     margin-right: 5rem;
@@ -207,7 +202,7 @@ body .top-button a i:hover {
 }
 
 .container__about .informations div i:hover {
-    color: #47DDFF;
+    color: #104DF1;
 }
 
 .container__about .informations span {
@@ -245,7 +240,7 @@ body .top-button a i:hover {
 }
 
 .container__projects i:hover {
-    color: #47DDFF;
+    color: #104DF1;
 }
 
 .container__projects h2 {
@@ -334,6 +329,83 @@ body .top-button a i:hover {
     box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
 }
 
+.container__swiper {
+    position: relative;
+    height: 100%;
+    background: transparent;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper {
+    width: 240px;
+    height: 320px;
+  }
+
+  .swiper-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to right, #47ddffd3, #104DF1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  .swiper-slide .content {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s;
+    overflow: visible;
+  }
+
+  .swiper-slide .content h2 {
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+  }
+
+  .swiper-slide .content h3 {
+    font-size: 1.2em;
+    color: #FFF;
+    z-index: 1;
+  }
+
+  .swiper-slide .content p {
+    font-size: 0.8em;
+    color: #FFF;
+    font-weight: 300;
+  }
+
+  .swiper-slide .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 15px 1rem 0 1rem;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
+    font-size: 1rem;
+    width: 56%;
+  }
+
 .container__knowledge {
     display: flex;
     justify-content: flex-start;
@@ -366,7 +438,7 @@ body .top-button a i:hover {
 }
 
 .container__knowledge .title-knowledge i:hover {
-    color: #47DDFF;
+    color: #104DF1;
 }
 
 .container__knowledge .wrapper {
@@ -381,7 +453,8 @@ body .top-button a i:hover {
 .container__knowledge .wrapper .card-knowledge {
     width: 80vw;  
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-image: linear-gradient(to right, #47ddffd3, #104DF1);
     overflow: hidden;
     border-radius: 1rem;
     margin-top: 2.5rem;
@@ -408,10 +481,6 @@ body .top-button a i:hover {
     font-size: 1.5rem;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__knowledge .title-card i:hover {
-    color: #47DDFF;
 }
 
 .container__knowledge .wrapper .card-knowledge div h3 {
@@ -480,7 +549,7 @@ body .top-button a i:hover {
 }
 
 .container__articles i:hover {
-    color: #47DDFF;
+    color: #104DF1;
 }
 
 .container__articles h2 {
@@ -510,7 +579,7 @@ body .top-button a i:hover {
     margin: 1rem 1rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(to right, #47ddffd3, #104DF1);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -537,9 +606,9 @@ body .top-button a i:hover {
 
 .container__articles .card .content h2 {
     position: absolute;
-    top: -80px;
-    right: 0px;
-    font-size: 8em;
+    top: -130px;
+    right: -20px;
+    font-size: 12em;
     color: rgba(255, 255, 255, 0.2);
     pointer-events: none;
 }
@@ -570,6 +639,10 @@ body .top-button a i:hover {
 }
 
 @media screen and (max-width: 999px) {
+
+    * {
+        overflow-x: hidden;
+    }
 
     body nav {
         padding-top: 1rem;
