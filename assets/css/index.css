@@ -675,6 +675,45 @@ body nav .close-button {
     box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
 }
 
+footer {
+    border-top: 2.5px solid #104DF1;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.8rem 6rem;
+}
+
+footer h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer ul li a i {
+    font-size: 1.6rem;
+    transition: all 0.5s;
+}
+
+footer ul li a i:hover {
+    color: #55e1ff;
+}
+
 @media screen and (max-width: 999px) {
 
     * {
