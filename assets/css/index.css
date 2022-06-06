@@ -250,7 +250,7 @@ body nav .close-button {
     font-size: 2.6rem;
 }
 
-.container__projects .wrapper {
+/* .container__projects .wrapper {
     position: relative;
     display: flex;
     justify-content: center;
@@ -327,7 +327,7 @@ body nav .close-button {
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
-}
+} */
 
 .container__swiper {
     position: relative;
@@ -422,6 +422,7 @@ body nav .close-button {
     justify-content: space-around;
     align-items: center;
     height: 20%;
+    margin-bottom: 6rem;
 }
 
 .container__knowledge .title-knowledge h2 {
@@ -450,10 +451,10 @@ body nav .close-button {
     overflow: visible;
 }
 
-.container__knowledge .wrapper .card-knowledge {
+/* .container__knowledge .wrapper .card-knowledge {
     width: 80vw;  
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(255, 255, 255, 0.1);
     background-image: linear-gradient(to right, #47ddffd3, #104DF1);
     overflow: hidden;
     border-radius: 1rem;
@@ -481,9 +482,45 @@ body nav .close-button {
     font-size: 1.5rem;
     cursor: pointer;
     transition: all 0.5s;
+}  */
+
+.container__knowledge .wrapper__knowledge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.container__knowledge .wrapper .card-knowledge div h3 {
+.container__knowledge .wrapper__knowledge div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.container__knowledge .card-technologie {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    border: 1px solid #55e0ff00;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.container__knowledge .card-technologie i {
+    color: #55E1FF;
+    font-size: 4rem;
+}
+
+.container__knowledge .card-technologie:hover {
+    border: 1px solid #55E1FF;
+}
+
+/* .container__knowledge .wrapper .card-knowledge div h3 {
     color: #FFF;
     font-size: 1.6rem;
     font-weight: 700;
@@ -520,7 +557,7 @@ body nav .close-button {
     color: #FFF;
     font-size: 1.25rem;
     margin-right: 0.8rem;
-}
+} */
 
 .container__articles {
     display: flex;
