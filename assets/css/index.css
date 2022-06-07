@@ -829,6 +829,67 @@ footer ul li a i:hover {
     background-position: center;
 }
 
+@media screen and (max-width: 414px) {
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100%;
+        place-items: center;
+        padding: 2rem 1rem;
+        overflow: hidden;
+    }
+
+    .container__home .informations {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10rem 0;
+    } 
+
+    .container__home .informations a {
+        width: 50%;
+        padding: 1rem 2rem;
+        margin: 1.8rem 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border: 1px solid #08D0FF;
+        color: #FFF;
+        background-image: linear-gradient(to right, #47DDFF, #0038FF, #0038FF,#47DDFF);
+        background-size: 300%;
+        background-position: right;
+        cursor: pointer;
+        transition: all 0.8s;
+        text-decoration: none;
+        box-shadow: 0 0 5px #47DDFF, 0 0 20px #0038FF, 0 0 20px #0038FF;
+    }
+    
+    .container__home .informations a:hover, .container__home .informations a:active {
+        background-position: left;
+        width: 55%;
+        padding: 1rem 2rem;
+    }
+
+    .container__home .banner {
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__home .banner img {
+        width: 10px;
+    }
+
+    .top-button {
+        overflow: visible;
+        right: 30px;
+        bottom: 20px;
+        z-index: 10;
+    }
+}
+
 @media screen and (max-width: 999px) {
 
     * {
@@ -851,12 +912,15 @@ footer ul li a i:hover {
         position: absolute;
         display: flex;
         flex-direction: column;
-        top: 8vh;
+        top: 10vh;
         width: 100%;
-        height: 52vh;
+        height: 90vh;
         padding-top: 4rem;
+        padding-bottom: 12rem;
         transform: translateX(100%);
         transition: all 0.5s;
+        background-color: #0F0F11;
+        overflow: hidden;
     }
 
     body nav a {
