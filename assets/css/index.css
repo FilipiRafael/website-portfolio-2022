@@ -119,6 +119,7 @@ body nav .close-button {
 
 .container__home .informations a {
     width: 50%;
+    max-width: 280px;
     padding: 1rem 5rem;
     margin: 1.8rem 0;
     font-size: 1.2rem;
@@ -686,6 +687,102 @@ body nav .close-button {
     box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
 }
 
+.container__contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.container__contact .title-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-bottom: 2.5rem;
+} 
+
+.container__contact i {
+    font-size: 2.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container__contact i:hover {
+    color: #104DF1;
+}
+
+.container__contact h2 {
+    color: #FFF;
+    font-weight: 700;
+    margin-right: 1rem;
+    font-size: 2.6rem;
+}
+
+.container__contact .container-form form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.container__contact .container-form form label {
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.container__contact .container-form form input {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0 1rem;
+    color: #FFF;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #104DF1, #20b2d3d3);
+    border: 1px solid #104DF1;
+    font-size: 1rem;
+    box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
+    border-radius: 0.5rem;
+}
+
+.container__contact .container-form form textarea {
+    color: #FFF;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #104DF1, #20b2d3d3);
+    border: 1px solid #104DF1;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
+    border-radius: 0.5rem;
+}
+
+.container__contact .container-form button {
+    width: 100%;
+    padding: 1rem 5rem;
+    margin: 2.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 1px solid #08D0FF;
+    border-radius: 0.5rem;
+    color: #FFF;
+    background-image: linear-gradient(to right, #47DDFF, #0038FF, #0038FF,#47DDFF);
+    background-size: 300%;
+    background-position: right;
+    cursor: pointer;
+    transition: all 0.8s;
+    text-decoration: none;
+    box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
+}
+
+.container__contact .container-form button:hover {
+    background-position: left;
+    padding: 1rem 6rem;
+}
+
 footer {
     border-top: 2.5px solid #104DF1;
     color: #FFF;
@@ -724,6 +821,12 @@ footer ul li a i {
 
 footer ul li a i:hover {
     color: #55e1ff;
+}
+
+.container__contact {
+    background-image: url('../images/background-knowledge-transparent.svg');
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width: 999px) {
