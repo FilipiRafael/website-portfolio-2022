@@ -839,13 +839,17 @@ footer ul li a i:hover {
         overflow: hidden;
     }
 
+    .container__home {
+        height: 60vh;
+    }
+
     .container__home .informations {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 10rem 0;
+        padding: 2rem 1rem;
     } 
 
     .container__home .informations a {
@@ -879,7 +883,7 @@ footer ul li a i:hover {
     }
 
     .container__home .banner img {
-        width: 10px;
+        display: none;
     }
 
     .top-button {
@@ -918,7 +922,7 @@ footer ul li a i:hover {
         padding-top: 4rem;
         padding-bottom: 12rem;
         transform: translateX(100%);
-        transition: all 0.5s;
+        transition: all 0.2s;
         background-color: #0F0F11;
         overflow: hidden;
     }
