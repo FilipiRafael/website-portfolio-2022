@@ -80,6 +80,7 @@ body nav .close-button {
 .top-button i {
     font-size: 50px;
     color: #104DF1;
+    border-radius: 50%;
     transition: all 0.5s;
 }
 
@@ -747,6 +748,7 @@ body nav .close-button {
     font-size: 1rem;
     box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
     border-radius: 0.5rem;
+    border: 1px solid #08D0FF;
 }
 
 .container__contact .container-form form textarea {
@@ -758,6 +760,7 @@ body nav .close-button {
     font-size: 1rem;
     box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
     border-radius: 0.5rem;
+    border: 1px solid #08D0FF;
 }
 
 .container__contact .container-form button {
