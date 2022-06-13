@@ -9,15 +9,16 @@
 
 /* Scrollbar edit */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #000; 
+    background: #000;
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #104DF1; 
+    background-image: linear-gradient(to bottom right, #47DDFF, #0038FF, #47DDFF, #0038FF);
+    background-size: 300%;
     border-radius: 1rem;
 }
 
@@ -832,7 +833,7 @@ footer ul li a i:hover {
     background-position: center;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
     .container {
         height: 100vh;
         display: grid;
@@ -895,12 +896,56 @@ footer ul li a i:hover {
         bottom: 20px;
         z-index: 10;
     }
+
+    .container__about {
+        background-image: url('../images/background-knowledge-mobile.svg')
+    }
+
+    .container__about .banner img {
+        min-width: 18rem;
+        max-width: 18rem;
+        margin: 6rem 0 4rem 0;
+    }
+
+    .container__about .informations {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container__projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('../images/background-mobile-projetcs.svg');
+        overflow: visible;
+    }
+
+    .container__projects .container__swiper {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
 }
 
 @media screen and (max-width: 999px) {
 
     * {
-        overflow-x: hidden;
+        /* TODO: Bug do scroll horizontal do menu mobile */
+        /* overflow-x: hidden; */
     }
 
     body nav {
