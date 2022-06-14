@@ -523,7 +523,7 @@ body nav .close-button {
     border: 1px solid #55E1FF;
 }
 
-.container__knowledge .card-technologie:hover {
+.container__knowledge .card-technologie:hover, .container__knowledge .card-technologie:active {
     /* border: 1px solid #55E1FF; */
     /* box-shadow: none; */
     box-shadow: 0 0 10px #47DDFF, 0 0 40px #0038FF, 0 0 80px #0038FF;
@@ -841,7 +841,6 @@ footer ul li a i:hover {
         grid-template-columns: 100%;
         place-items: center;
         padding: 2rem 1rem;
-        overflow: hidden;
     }
 
     .container__home {
@@ -935,6 +934,7 @@ footer ul li a i:hover {
     .container-knowledge {
         padding-bottom: 6rem;
         overflow-y: visible;
+        height: 100%;
     }
 
     .container__knowledge .title-knowledge h2 {
@@ -945,15 +945,12 @@ footer ul li a i:hover {
         font-size: 2rem;
     }
 
-    .container__knowledge .wrapper__knowledge {
-        height: 100%;
-    }
-
     .container__knowledge .wrapper__knowledge div {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        margin-bottom: 0.2rem;
     }
 
     .container__articles {
@@ -1004,7 +1001,7 @@ footer ul li a i:hover {
         background-image: url('../images/background-knowledge-mobile.svg');
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 100%;
     }
 
     .container__contact .container-form form {
