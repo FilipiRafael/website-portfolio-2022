@@ -834,6 +834,7 @@ footer ul li a i:hover {
 }
 
 @media screen and (max-width: 480px) {
+
     .container {
         height: 100vh;
         display: grid;
@@ -1025,11 +1026,6 @@ footer ul li a i:hover {
 }
 
 @media screen and (max-width: 999px) {
-
-    * {
-        /* TODO: Bug do scroll horizontal do menu mobile */
-        /* overflow-x: hidden; */
-    }
 
     body nav {
         padding-top: 1rem;
