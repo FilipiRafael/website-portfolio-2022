@@ -9,15 +9,16 @@
 
 /* Scrollbar edit */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #000; 
+    background: #000;
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #104DF1; 
+    background-image: linear-gradient(to bottom right, #47DDFF, #0038FF, #47DDFF, #0038FF);
+    background-size: 300%;
     border-radius: 1rem;
 }
 
@@ -80,6 +81,7 @@ body nav .close-button {
 .top-button i {
     font-size: 50px;
     color: #104DF1;
+    border-radius: 50%;
     transition: all 0.5s;
 }
 
@@ -747,6 +749,7 @@ body nav .close-button {
     font-size: 1rem;
     box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
     border-radius: 0.5rem;
+    border: 1px solid #08D0FF;
 }
 
 .container__contact .container-form form textarea {
@@ -758,6 +761,7 @@ body nav .close-button {
     font-size: 1rem;
     box-shadow: 0 0 2.5px #47DDFF, 0 0 10px #0038FF, 0 0 10px #0038FF;
     border-radius: 0.5rem;
+    border: 1px solid #08D0FF;
 }
 
 .container__contact .container-form button {
@@ -829,7 +833,8 @@ footer ul li a i:hover {
     background-position: center;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
+
     .container {
         height: 100vh;
         display: grid;
@@ -840,7 +845,7 @@ footer ul li a i:hover {
     }
 
     .container__home {
-        height: 60vh;
+        height: 40vh;
     }
 
     .container__home .informations {
@@ -892,13 +897,135 @@ footer ul li a i:hover {
         bottom: 20px;
         z-index: 10;
     }
+
+    .container__about {
+        background-image: url('../images/background-knowledge-mobile.svg');
+        height: 100vh;
+    }
+
+    .container__about .banner img {
+        min-width: 18rem;
+        max-width: 18rem;
+        margin: 6rem 0 4rem 0;
+    }
+
+    .container__about .informations {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container__projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('../images/background-mobile-projetcs.svg');
+        overflow: visible;
+        margin-top: 5rem;
+    }
+
+    .container__projects .title-projects {
+        padding-top: 4rem;
+    }
+
+    .container__projects .container__swiper {
+        padding: 0;
+        margin: 0;
+        overflow: visible;
+    }
+
+    .container__knowledge .title-knowledge h2 {
+        font-size: 2.2rem;
+    }
+
+    .container__knowledge .title-knowledge i {
+        font-size: 2rem;
+    }
+
+    .container__knowledge .wrapper__knowledge div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container__articles {
+        height: 100%;
+        padding-bottom: 8rem;
+        margin: 6rem 0;
+    }
+
+    .container__articles .title-articles {
+        height: 0;
+    }
+
+    .container__articles .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container__contact {
+        background-image: url('../images/background-knowledge-mobile.svg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .container__contact .container-form form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container__contact .container-form form label {
+        font-size: 1.5rem;
+    }
+
+    .container__contact .container-form form input, textarea {
+        width: 90vw;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: 1.2rem;
+        width: 100%;
+        margin: 0 0 2.5rem 0;
+    }
+
+    footer ul {
+        margin-bottom: 1.5rem;
+    }
+
+    footer ul li a i {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
 }
 
 @media screen and (max-width: 999px) {
-
-    * {
-        overflow-x: hidden;
-    }
 
     body nav {
         padding-top: 1rem;
