@@ -900,7 +900,7 @@ footer ul li a i:hover {
 
     .container__about {
         background-image: url('../images/background-knowledge-mobile.svg');
-        height: 100vh;
+        height: 100%;
     }
 
     .container__about .banner img {
@@ -930,6 +930,11 @@ footer ul li a i:hover {
     .container__projects .container__swiper {
         height: 80%;
         overflow: visible;
+    }
+
+    .container-knowledge {
+        padding-bottom: 6rem;
+        overflow-y: visible;
     }
 
     .container__knowledge .title-knowledge h2 {
@@ -990,14 +995,9 @@ footer ul li a i:hover {
         text-align: center;
         padding: 20px;
         transition: all 0.5s;
-        transform: translateY(100px);
-        opacity: 0;
-        overflow: visible;
-    }
-    
-    .container__articles .card:hover .content, .container__articles .card:active .content {
         transform: translateY(0);
         opacity: 1;
+        overflow: visible;
     }
 
     .container__contact {
