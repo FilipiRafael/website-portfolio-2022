@@ -950,7 +950,11 @@ footer ul li a i:hover {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-bottom: 0.2rem;
+        margin: 0;
+    }
+
+    .container__knowledge .wrapper__knowledge .card-technologie {
+        margin: 0.5rem;
     }
 
     .container__articles {
