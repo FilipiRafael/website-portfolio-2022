@@ -922,12 +922,12 @@ footer ul li a i:hover {
         align-items: center;
         flex-direction: column;
         background-image: url('../images/background-mobile-projetcs.svg');
-        overflow: visible;
-        margin-top: 6rem;
+        /* overflow: visible; */
+        /* margin-top: 6rem; */
     }
 
     .container__projects .container__swiper {
-        height: 80%;
+        /* height: 80%; */
         overflow: visible;
     }
 
