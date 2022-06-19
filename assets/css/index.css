@@ -929,9 +929,6 @@ footer ul li a i:hover {
         margin-top: 2.8rem;
     }
 
-    .container__swiper {
-    }
-
     .container-knowledge {
         padding-bottom: 6rem;
         overflow-y: visible;
@@ -960,12 +957,7 @@ footer ul li a i:hover {
 
     .container__articles {
         height: 100%;
-        padding-bottom: 8rem;
-        margin: 6rem 0;
-    }
-
-    .container__articles .title-articles {
-        height: 0;
+        margin: 10rem 0 12rem 0;
     }
 
     .container__articles .wrapper {
