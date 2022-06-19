@@ -1071,7 +1071,8 @@ footer ul li a i:hover {
 
     body nav ul {
         position: absolute;
-        display: flex;
+        display: none;
+        /* display: flex; */
         flex-direction: column;
         top: 10vh;
         width: 100%;
