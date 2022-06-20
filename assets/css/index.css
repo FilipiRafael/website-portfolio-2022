@@ -745,7 +745,7 @@ footer ul li a i:hover {
 
     .container__about {
         background-image: url('../images/background-knowledge-mobile.svg');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         height: 100%;
     }
