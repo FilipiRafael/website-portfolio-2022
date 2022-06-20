@@ -737,6 +737,7 @@ footer ul li a i:hover {
     }
 
     .top-button {
+        display: none;
         overflow: visible;
         right: 30px;
         bottom: 20px;
