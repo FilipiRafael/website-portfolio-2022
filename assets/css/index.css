@@ -899,6 +899,8 @@ footer ul li a i:hover {
 
     .container__about {
         background-image: url('../images/background-knowledge-mobile.svg');
+        background-size: cover;
+        background-position: center;
         height: 100%;
     }
 
@@ -929,10 +931,10 @@ footer ul li a i:hover {
         margin-top: 2.8rem;
     }
 
-    .container-knowledge {
-        padding-bottom: 6rem;
-        overflow-y: visible;
-        height: 100%;
+    .container__knowledge {
+        background-image: url('../images/background-knowledge-mobile.svg');
+        background-size: cover;
+        background-position: center;
     }
 
     .container__knowledge .title-knowledge h2 {
@@ -958,6 +960,9 @@ footer ul li a i:hover {
     .container__articles {
         height: 100%;
         margin: 10rem 0 12rem 0;
+        background-image: url('../images/background-mobile-articles.svg');
+        background-position: center;
+        background-size: cover;
     }
 
     .container__articles .wrapper {
