@@ -17,7 +17,7 @@
 }
   
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom right, #47DDFF, #0038FF, #47DDFF, #0038FF);
+    background-color: #0038FF;
     background-size: 300%;
     border-radius: 1rem;
 }
@@ -212,10 +212,6 @@ body nav .close-button {
     cursor: pointer;
 }
 
-.container__about .informations div i:hover {
-    color: #104DF1;
-}
-
 .container__about .informations span {
     color: lightgray;
     font-size: 1.2rem;
@@ -248,10 +244,6 @@ body nav .close-button {
     color: #FFF;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__projects i:hover {
-    color: #104DF1;
 }
 
 .container__projects h2 {
@@ -370,10 +362,6 @@ body nav .close-button {
     cursor: pointer;
 }
 
-.container__knowledge .title-knowledge i:hover {
-    color: #104DF1;
-}
-
 .container__knowledge .wrapper {
     display: flex;
     justify-content: center;
@@ -443,10 +431,6 @@ body nav .close-button {
     color: #FFF;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__articles i:hover {
-    color: #104DF1;
 }
 
 .container__articles h2 {
@@ -555,10 +539,6 @@ body nav .close-button {
     color: #FFF;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__contact i:hover {
-    color: #104DF1;
 }
 
 .container__contact h2 {
