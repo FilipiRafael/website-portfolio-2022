@@ -261,85 +261,6 @@ body nav .close-button {
     font-size: 2.6rem;
 }
 
-/* .container__projects .wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    z-index: 1;
-    height: 80%;
-    width: 100%;
-    overflow: visible;
-}
-
-.container__projects .card {
-    position: relative;
-    width: 280px;
-    height: 400px;
-    margin: 1rem 1rem;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-}
-
-.container__projects .card .content {
-    text-align: center;
-    padding: 20px;
-    transition: all 0.5s;
-    transform: translateY(100px);
-    opacity: 0;
-    overflow: visible;
-}
-
-.container__projects .card:hover .content {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.container__projects .card .content h2 {
-    position: absolute;
-    top: -80px;
-    right: 0px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.2);
-    pointer-events: none;
-}
-
-.container__projects .card .content h3 {
-    font-size: 1.8em;
-    color: #FFF;
-    z-index: 1;
-}
-
-.container__projects .card .content p {
-    font-size: 1em;
-    color: #FFF;
-    font-weight: 300;
-}
-
-.container__projects .card .content a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 15px 3rem 0 3rem;
-    background-color: #FFF;
-    color: #000;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
-} */
-
 .container__swiper {
     position: relative;
     height: 100%;
@@ -462,39 +383,6 @@ body nav .close-button {
     overflow: visible;
 }
 
-/* .container__knowledge .wrapper .card-knowledge {
-    width: 80vw;  
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.1);
-    background-image: linear-gradient(to right, #47ddffd3, #104DF1);
-    overflow: hidden;
-    border-radius: 1rem;
-    margin-top: 2.5rem;
-    padding: 0 6rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 4.5rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(10px);
-    cursor: pointer;
-}
-
-.container__knowledge .title-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.2rem;
-}
-
-.container__knowledge .title-card i {
-    color: #FFF;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: all 0.5s;
-}  */
-
 .container__knowledge .wrapper__knowledge {
     display: flex;
     justify-content: center;
@@ -524,8 +412,6 @@ body nav .close-button {
 }
 
 .container__knowledge .card-technologie:hover, .container__knowledge .card-technologie:active {
-    /* border: 1px solid #55E1FF; */
-    /* box-shadow: none; */
     box-shadow: 0 0 10px #47DDFF, 0 0 40px #0038FF, 0 0 80px #0038FF;
 }
 
@@ -534,52 +420,12 @@ body nav .close-button {
     font-size: 4rem;
 }
 
-/* .container__knowledge .wrapper .card-knowledge div h3 {
-    color: #FFF;
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-left: 1rem;
-}
-
-.container__knowledge .wrapper .card-knowledge div ul {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding-left: 2rem;
-}
-
-.container__knowledge .wrapper .card-knowledge div ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5rem 0;
-}
-
-.container__knowledge .wrapper .card-knowledge div ul li img {
-    width: 21.5px;
-    margin-right: 0.8rem;
-}
-
-.container__knowledge .wrapper .card-knowledge div ul li span {
-    color: #FFF;
-    font-size: 1.2rem;
-    font-weight: 300;
-}
-
-.container__knowledge .wrapper .card-knowledge div ul i {
-    color: #FFF;
-    font-size: 1.25rem;
-    margin-right: 0.8rem;
-} */
-
 .container__articles {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 8rem;
-    /* background: linear-gradient(135deg, #0037ffc8, #47ddffd3), url('../images/background-montain.svg') fixed; */
     background-image: url('../images/background-gradient-2.svg');
     background-size: cover;
     background-position: center;
