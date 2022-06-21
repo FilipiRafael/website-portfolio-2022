@@ -17,7 +17,7 @@
 }
   
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom right, #47DDFF, #0038FF, #47DDFF, #0038FF);
+    background-color: #0038FF;
     background-size: 300%;
     border-radius: 1rem;
 }
@@ -169,8 +169,9 @@ body nav .close-button {
 
 .container__about .banner img {
     min-width: 410px;
-    border-radius: 50%;
-    border: 4px solid #104DF1;
+    border-radius: 0.2rem;
+    /* border: 4px solid #104DF1; */
+    border-left: 8px solid #104DF1;
     cursor: pointer;
     transition: all 0.6s;
     margin-right: 5rem;
@@ -212,10 +213,6 @@ body nav .close-button {
     cursor: pointer;
 }
 
-.container__about .informations div i:hover {
-    color: #104DF1;
-}
-
 .container__about .informations span {
     color: lightgray;
     font-size: 1.2rem;
@@ -248,10 +245,6 @@ body nav .close-button {
     color: #FFF;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__projects i:hover {
-    color: #104DF1;
 }
 
 .container__projects h2 {
@@ -370,10 +363,6 @@ body nav .close-button {
     cursor: pointer;
 }
 
-.container__knowledge .title-knowledge i:hover {
-    color: #104DF1;
-}
-
 .container__knowledge .wrapper {
     display: flex;
     justify-content: center;
@@ -404,20 +393,93 @@ body nav .close-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1s;
+    transition: all 0.8s;
     border: 1px solid #55e0ff00;
     margin: 0 1rem;
     cursor: pointer;
     border: 1px solid #55E1FF;
 }
 
-.container__knowledge .card-technologie:hover, .container__knowledge .card-technologie:active {
-    box-shadow: 0 0 10px #47DDFF, 0 0 40px #0038FF, 0 0 80px #0038FF;
-}
+/* .container__knowledge .card-technologie:hover, .container__knowledge .card-technologie:active {
+    box-shadow: 0 0 10px #47DDFF, 0 0 20px #0038FF, 0 0 40px #0038FF;
+} */
 
 .container__knowledge .card-technologie i {
     color: #55E1FF;
     font-size: 4rem;
+    transition: all 0.8s;
+}
+
+.container__knowledge .card-html:hover, .container__knowledge .card-html:active {
+    border: 1px solid #E45924;
+    color: #E45924;
+}
+
+.container__knowledge .card-html:hover i {
+    color: #E45924;
+}
+
+.container__knowledge .card-css:hover, .container__knowledge .card-css:active {
+    border: 1px solid #2660E4;
+    color: #2660E4;
+}
+
+.container__knowledge .card-css:hover i {
+    color: #2660E4;
+}
+
+.container__knowledge .card-js:hover, .container__knowledge .card-js:active {
+    border: 1px solid #EFD81D;
+    color: #EFD81D;
+}
+
+.container__knowledge .card-js:hover i {
+    color: #EFD81D;
+}
+
+.container__knowledge .card-sass:hover, .container__knowledge .card-sass:active {
+    border: 1px solid #C76794;
+    color: #C76794;
+}
+
+.container__knowledge .card-sass:hover i {
+    color: #C76794;
+}
+
+.container__knowledge .card-react:hover, .container__knowledge .card-react:active {
+    border: 1px solid #137ED1;
+    color: #137ED1;
+}
+
+.container__knowledge .card-react:hover i {
+    color: #137ED1;
+}
+
+.container__knowledge .card-nodejs:hover, .container__knowledge .card-nodejs:active {
+    border: 1px solid #81B640;
+    color: #81B640;
+}
+
+.container__knowledge .card-nodejs:hover i {
+    color: #81B640;
+}
+
+.container__knowledge .card-database:hover, .container__knowledge .card-database:active {
+    border: 1px solid #600191;
+    color: #600191;
+}
+
+.container__knowledge .card-database:hover i {
+    color: #600191;
+}
+
+.container__knowledge .card-git:hover, .container__knowledge .card-git:active {
+    border: 1px solid #E44C31;
+    color: #E44C31;
+}
+
+.container__knowledge .card-git:hover i {
+    color: #E44C31;
 }
 
 .container__articles {
@@ -443,10 +505,6 @@ body nav .close-button {
     color: #FFF;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__articles i:hover {
-    color: #104DF1;
 }
 
 .container__articles h2 {
@@ -555,10 +613,6 @@ body nav .close-button {
     color: #FFF;
     cursor: pointer;
     transition: all 0.5s;
-}
-
-.container__contact i:hover {
-    color: #104DF1;
 }
 
 .container__contact h2 {
