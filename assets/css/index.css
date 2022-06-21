@@ -839,9 +839,10 @@ footer ul li a i:hover {
         height: 100%;
     }
 
-    .container__projects .title-projects {
+    /* .container__projects .title-projects {
         margin-top: 2.8rem;
-    }
+        background: transparent;
+    } */
 
     .container__knowledge {
         background-image: url('../images/background-knowledge-mobile.svg');
