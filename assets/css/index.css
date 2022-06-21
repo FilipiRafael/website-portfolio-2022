@@ -111,12 +111,24 @@ body nav .close-button {
     font-size: 1.8rem;
     font-weight: 300;
     color: #FFF;
+    animation: backInDown;
+    animation-duration: 0.8s;
+}
+
+.container__home .informations p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #FFF;
+    animation: backInLeft;
+    animation-duration: 1.2s;
 }
 
 .container__home .informations h1 {
     font-size: 3rem;
     color: #FFF;
     font-weight: 700;
+    animation: backInDown;
+    animation-duration: 0.8s;
 }
 
 .container__home .informations a {
@@ -167,19 +179,26 @@ body nav .close-button {
     justify-content: center;
 }
 
-.container__about .banner img {
-    min-width: 410px;
+.container__about .banner .wrapper-img {
+    background: linear-gradient(180deg, #FFF, #0038FF);
+    max-width: 320px;
+    max-height: 320px;
     border-radius: 0.2rem;
-    /* border: 4px solid #104DF1; */
-    border-left: 8px solid #104DF1;
+}
+
+.container__about .banner img {
+    border-radius: 0.2rem;
     cursor: pointer;
-    transition: all 0.6s;
+    transition: all 1s;
     margin-right: 5rem;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
 }
 
 .container__about .banner img:hover {
     opacity: 0.8;
+    mix-blend-mode: multiply;
 }
 
 .container__about .informations {
@@ -805,10 +824,8 @@ footer ul li a i:hover {
         height: 100%;
     }
 
-    .container__about .banner img {
-        min-width: 18rem;
-        max-width: 18rem;
-        margin: 6rem 0 4rem 0;
+    .container__about .banner {
+       padding: 1rem;
     }
 
     .container__about .informations {
