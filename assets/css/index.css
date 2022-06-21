@@ -243,7 +243,6 @@ body nav .close-button {
     background-image: url('../images/background-gradient.svg');
     background-size: cover;
     background-position: center;
-    /* height: 100%; */
 }
 
 .container__projects .title-projects {
@@ -837,6 +836,7 @@ footer ul li a i:hover {
         align-items: center;
         flex-direction: column;
         background-image: url('../images/background-mobile-projetcs.svg');
+        height: 100%;
     }
 
     .container__projects .title-projects {
