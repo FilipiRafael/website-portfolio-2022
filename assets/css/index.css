@@ -244,6 +244,7 @@ body nav .close-button {
     background-image: url('../images/background-gradient.svg');
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 
 .container__projects .title-projects {
@@ -268,7 +269,6 @@ body nav .close-button {
 
 .container__swiper {
     position: relative;
-    height: 100%;
     background: transparent;
     font-size: 1rem;
     margin: 0;
