@@ -244,6 +244,7 @@ body nav .close-button {
     background-image: url('../images/background-gradient.svg');
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 
 .container__projects .title-projects {
@@ -278,10 +279,10 @@ body nav .close-button {
     height: 100%;
   }
 
-  /* .swiper {
+  .swiper {
     width: 240px;
     height: 320px;
-  } */
+  }
 
   .swiper-slide {
     position: relative;
