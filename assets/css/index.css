@@ -189,8 +189,6 @@ body nav .close-button {
     transition: all 0.8s;
     margin-right: 5rem;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    animation: lightSpeedInLeft;
-    animation-duration: 1s;
 }
 
 .container__about .banner img:hover {
