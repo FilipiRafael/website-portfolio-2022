@@ -243,6 +243,7 @@ body nav .close-button {
     background-image: url('../images/background-gradient.svg');
     background-size: cover;
     background-position: center;
+    /* height: 100%; */
 }
 
 .container__projects .title-projects {
@@ -356,7 +357,6 @@ body nav .close-button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20%;
     margin-bottom: 6rem;
 }
 
@@ -507,7 +507,7 @@ body nav .close-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    margin-bottom: 4rem;
 }
 
 .container__articles i {
@@ -532,7 +532,6 @@ body nav .close-button {
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
-    height: 80%;
     width: 100%;
     overflow: visible;
 }
@@ -614,7 +613,6 @@ body nav .close-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
     margin-bottom: 2.5rem;
 } 
 
@@ -839,10 +837,6 @@ footer ul li a i:hover {
         align-items: center;
         flex-direction: column;
         background-image: url('../images/background-mobile-projetcs.svg');
-    }
-
-    .container__swiper {
-        height: 100vh;
     }
 
     .container__projects .title-projects {
