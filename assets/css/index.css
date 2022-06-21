@@ -836,13 +836,13 @@ footer ul li a i:hover {
         align-items: center;
         flex-direction: column;
         background-image: url('../images/background-mobile-projetcs.svg');
-        height: 120vh;
+        height: 100vh;
     }
 
-    /* .container__projects .title-projects {
+    .container__projects .title-projects {
         margin-top: 2.8rem;
         background: transparent;
-    } */
+    }
 
     .container__knowledge {
         background-image: url('../images/background-knowledge-mobile.svg');
