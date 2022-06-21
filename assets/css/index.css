@@ -845,7 +845,7 @@ footer ul li a i:hover {
     }
 
     .container__swiper {
-        height: 100vh;
+        height: 100%;
     }
 
     .container__knowledge {
