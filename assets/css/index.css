@@ -240,7 +240,6 @@ body nav .close-button {
     justify-content: center;
     align-items: center;
     padding: 2rem 8rem;
-    /* background: linear-gradient(135deg, #0037ffc8, #47ddffd3), url('../images/background-montain.svg') fixed; */
     background-image: url('../images/background-gradient.svg');
     background-size: cover;
     background-position: center;
@@ -250,7 +249,6 @@ body nav .close-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
 }
 
 .container__projects i {
@@ -268,7 +266,6 @@ body nav .close-button {
 }
 
 .container__swiper {
-    height: 100%;
     position: relative;
     background: transparent;
     font-size: 1rem;
@@ -277,7 +274,6 @@ body nav .close-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
   }
 
   .swiper {
@@ -843,7 +839,6 @@ footer ul li a i:hover {
         align-items: center;
         flex-direction: column;
         background-image: url('../images/background-mobile-projetcs.svg');
-        height: 100vh;
     }
 
     .container__projects .title-projects {
