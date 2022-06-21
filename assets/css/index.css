@@ -842,7 +842,10 @@ footer ul li a i:hover {
     .container__projects .title-projects {
         margin-top: 2.8rem;
         background: transparent;
-        height: 20%;
+    }
+
+    .container__swiper {
+        height: 100vh;
     }
 
     .container__knowledge {
