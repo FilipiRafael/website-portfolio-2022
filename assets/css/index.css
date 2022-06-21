@@ -835,9 +835,9 @@ footer ul li a i:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url('../images/background-mobile-projetcs.svg');
+        /* background-image: url('../images/background-mobile-projetcs.svg');
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         height: 100vh;
     }
 
