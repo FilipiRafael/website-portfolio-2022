@@ -841,6 +841,10 @@ footer ul li a i:hover {
         background-image: url('../images/background-mobile-projetcs.svg');
     }
 
+    .container__swiper {
+        height: 100vh;
+    }
+
     .container__projects .title-projects {
         margin-top: 2.8rem;
     }
