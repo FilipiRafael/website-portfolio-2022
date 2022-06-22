@@ -1,8 +1,5 @@
 
 # Website pessoal para projetos/portfólio
-<div style="display: inline-block">
-    <img src="./assets/images/screenshot-2.png" alt="Aplicação">
-</div>
 
 ## Sobre o Projeto
 A ideia do projeto foi para aplicar, práticar e melhorar minhas habilidades técnicas em desenvolvimento web. Além de utilizar no meu domínio público para fins de portfólio e apresentação profissional.
@@ -13,3 +10,7 @@ A ideia do projeto foi para aplicar, práticar e melhorar minhas habilidades té
 
 ## Novas versões
 Conforme vou adquirindo novas habilidades, irei atualizando o projeto em novas versões. 
+
+<div style="display: inline-block">
+    <img src="./assets/images/screenshot-2.png" alt="Aplicação">
+</div>
