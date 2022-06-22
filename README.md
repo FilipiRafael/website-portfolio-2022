@@ -12,5 +12,5 @@ A ideia do projeto foi para aplicar, práticar e melhorar minhas habilidades té
 Conforme vou adquirindo novas habilidades, irei atualizando o projeto em novas versões. 
 
 <div style="display: inline-block">
-    <img src="./assets/images/screenshot-2.png" alt="Aplicação">
+    <img src="./assets/images/screenshot.png" alt="Aplicação">
 </div>
