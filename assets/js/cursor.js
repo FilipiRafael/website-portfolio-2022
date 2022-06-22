@@ -5,3 +5,9 @@ document.addEventListener('mousemove', (e) => {
         cursor.style.display = 'inline';
     }
 });
+
+document.addEventListener('mouseout', () => {
+    if (window.innerWidth > 999) {
+        cursor.style.display = 'none';
+    }
+})
