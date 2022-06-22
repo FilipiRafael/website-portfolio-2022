@@ -56,6 +56,9 @@ body nav {
     padding: 0.5rem;
     border-bottom: 2.5px solid #104DF1;
     background-color: #0F0F11;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 body nav img {
@@ -118,7 +121,7 @@ body nav .close-button {
 }
 
 .container__home {
-    height: 78vh;
+    height: 100vh;
 }
 
 .container__home .informations {
@@ -776,7 +779,7 @@ footer ul li a i:hover {
     }
 
     .container__home {
-        height: 60vh;
+        height: 100vh;
     }
 
     .container__home .informations {
