@@ -1,7 +1,7 @@
 
 # Website pessoal para projetos/portfólio
 <div style="display: inline-block">
-    <img src="./assets/images/screenshot.png" alt="Aplicação">
+    <img src="./assets/images/screenshot-2.png" alt="Aplicação">
 </div>
 
 ## Sobre o Projeto
