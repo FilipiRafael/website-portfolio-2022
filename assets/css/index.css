@@ -28,6 +28,26 @@ body {
     background-color: #000;
 }
 
+.cursor {
+    width: 42px;
+    height: 42px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    } to {
+        transform: scale(.8);
+    }
+}
+
 body nav {
     display: flex;
     justify-content: space-around;
@@ -741,6 +761,10 @@ footer ul li a i:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+    .cursor {
+        display: none;
+    }
 
     .container {
         height: 100vh;
