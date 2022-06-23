@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
     overflow: visible;
 }
 
@@ -827,10 +828,10 @@ footer ul li a i:hover {
 
     .top-button {
         display: none;
-        overflow: visible;
+        /* overflow: visible;
         right: 30px;
         bottom: 20px;
-        z-index: 10;
+        z-index: 10; */
     }
 
     .container__about {
