@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
     overflow: visible;
 }
 
