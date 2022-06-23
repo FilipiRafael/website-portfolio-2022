@@ -765,7 +765,7 @@ footer ul li a i:hover {
     background-position: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
 
     .cursor {
         display: none;
@@ -988,17 +988,12 @@ footer ul li a i:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
+    .top-button {
+        display: none;
+    }
 
-}
-
-@media screen and (max-width: 1279px) {
-
-}
-
-@media screen and (min-width: 1280px) {
-
-}
+} */
 
 @media screen and (max-width: 999px) {
 
@@ -1039,5 +1034,103 @@ footer ul li a i:hover {
         background-color: transparent;
         border: none;
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1360px) {
+    .container__home {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100%;
+        place-items: center;
+        padding: 2.5rem 1rem;
+    }
+
+    .container__home .informations {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+        margin: 5rem 0 0 0;
+    }  
+
+    .container__home .informations span {
+        font-size: 2.5rem;
+    }
+
+    .container__home .informations p {
+        font-size: 2.5rem
+    }
+
+    .container__home .informations h1 {
+        font-size: 4rem;
+    }
+
+    .container__home .informations a {
+        width: 80%;
+        padding: 1rem 2rem;
+        margin: 4rem 0;
+        font-size: 1.6rem;
+        font-weight: 700;
+        border: 1px solid #08D0FF;
+        color: #FFF;
+        background-image: linear-gradient(to right, #47DDFF, #0038FF, #0038FF,#47DDFF);
+        background-size: 300%;
+        background-position: right;
+        cursor: pointer;
+        transition: all 0.8s;
+        text-decoration: none;
+        box-shadow: 0 0 5px #47DDFF, 0 0 20px #0038FF, 0 0 20px #0038FF;
+    }
+
+    .container__home .informations a:hover, .container__home .informations a:active {
+        background-position: left;
+        width: 85%;
+        padding: 1rem 2rem;
+    }
+
+    .container__home .banner img {
+        display: none;
+    }
+
+    .container__about {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100%;
+        place-items: center;
+        padding: 2.5rem 1rem;
+    }
+
+    .container__about .banner img {
+        display: none;
+    }
+
+    .container__about .informations {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container__articles {
+        height: 100%;
+    }
+
+    .container__contact {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1470px) {
+    .container__about .banner img {
+        min-width: 28rem;
+        max-width: 28rem;
+    }
+
+    .container__knowledge .wrapper__knowledge {
+        max-width: 50%;
     }
 }
