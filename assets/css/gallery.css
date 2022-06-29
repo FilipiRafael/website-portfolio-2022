@@ -1,5 +1,6 @@
 :root {
     --font-family-default: 'Inter', sans-serif;
+    --hue: 207;
 }
 
 * {
@@ -98,6 +99,10 @@ section ul li.active {
     height: 12rem;
     margin: 12px;
     display: block;
+    border: 2px solid #0038FF;
+    transition: all 0.5s;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .projects .itemBox img {
@@ -107,19 +112,48 @@ section ul li.active {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* border: 1px solid rgba(0, 0, 0, 0); */
-    border: 2px solid #0038FF;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.projects .itemBox img:hover {
-    transform: scale(1.2);
-    z-index: 1;
 }
 
 .projects .itemBox.hide {
     display: none;
+}
+
+.projects .projects__modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    background: linear-gradient(180deg, hsla(var(--hue), 90%, 20%, .6) 0%, hsla(var(--hue), 90%, 4%, 1) 95%);
+    backdrop-filter: blur(2px);
+    display: grid;
+    align-items: flex-end;
+    padding: 1.5rem 1.25rem;
+    transition: .3s;
+}
+
+.projects .itemBox:hover .projects__modal {
+    bottom: 0;
+}
+
+.projects__subtitle, .projects__title {
+    color: #FFF;
+}
+
+.projects__subtitle {
+    font-size: .95rem;
+}
+
+.projects__title {
+    font-size: 1.5rem;
+    margin: 0.8rem 0 1.5rem 0;
+}
+
+.projects__button {
+    padding: .5rem;
+    background-color: #0038FF;
+    color: #FFF;
+    border-radius: 0.5rem;
 }
 
 .cursor {
