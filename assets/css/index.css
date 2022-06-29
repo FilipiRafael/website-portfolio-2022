@@ -157,9 +157,9 @@ body nav .close-button {
 }
 
 .container__home .informations a {
-    width: 50%;
+    width: 52%;
     max-width: 280px;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     margin: 1.8rem 0;
     font-size: 1.2rem;
     font-weight: 700;
@@ -172,12 +172,21 @@ body nav .close-button {
     transition: all 0.8s;
     text-decoration: none;
     box-shadow: 0 0 5px #47DDFF, 0 0 20px #0038FF, 0 0 20px #0038FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container__home .informations a:hover {
     background-position: left;
-    width: 55%;
-    padding: 1rem 6rem;
+    width: 58%;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.container__home .informations a i {
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 .container__home .banner {
@@ -371,7 +380,7 @@ body nav .close-button {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding: 2rem 8rem;
+    /* padding: 2rem 8rem 0 16rem; */
     background-image: url('../images/background-knowledge-transparent.svg');
     background-position: center;
     background-size: cover;
@@ -397,7 +406,16 @@ body nav .close-button {
     cursor: pointer;
 }
 
-.container__knowledge .wrapper {
+.container__knowledge .wrapper-knowledge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    padding-left: 7rem;
+}
+
+/* .container__knowledge .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,13 +450,13 @@ body nav .close-button {
     margin: 0 1rem;
     cursor: pointer;
     border: 1px solid #55E1FF;
-}
+} */
 
 /* .container__knowledge .card-technologie:hover, .container__knowledge .card-technologie:active {
     box-shadow: 0 0 10px #47DDFF, 0 0 20px #0038FF, 0 0 40px #0038FF;
 } */
 
-.container__knowledge .card-technologie i {
+/* .container__knowledge .card-technologie i {
     color: #55E1FF;
     font-size: 4rem;
     transition: all 0.8s;
@@ -514,6 +532,53 @@ body nav .close-button {
 
 .container__knowledge .card-git:hover i {
     color: #E44C31;
+} */
+
+.container__knowledge .stack-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    width: 100%;
+}
+
+.container__knowledge .stack-wrapper ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.container__knowledge .stack-wrapper ul li {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container__knowledge .stack-wrapper ul li .header-stack {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container__knowledge .stack-wrapper ul li .header-stack i {
+    margin-right: 0.6rem;
+    font-size: 0.8rem;
+    color: #08D0FF;
+}
+
+.container__knowledge .stack-wrapper ul li .header-stack h3 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.container__knowledge .stack-wrapper ul li span {
+    margin-top: 0.5rem;
+    padding-left: 1.4rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .container__articles {
@@ -793,8 +858,8 @@ footer ul li a i:hover {
     } 
 
     .container__home .informations a {
-        width: 50%;
-        padding: 1rem 2rem;
+        width: 60%;
+        padding: 1rem 1rem;
         margin: 1.8rem 0;
         font-size: 1.2rem;
         font-weight: 700;
@@ -811,8 +876,8 @@ footer ul li a i:hover {
     
     .container__home .informations a:hover, .container__home .informations a:active {
         background-position: left;
-        width: 55%;
-        padding: 1rem 2rem;
+        width: 65%;
+        padding: 1rem 1rem;
     }
 
     .container__home .banner {
@@ -888,7 +953,36 @@ footer ul li a i:hover {
         font-size: 2rem;
     }
 
-    .container__knowledge .wrapper__knowledge div {
+    .container__knowledge .wrapper-knowledge {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        padding-left: 3rem;
+    }
+
+    .container__knowledge .stack-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #FFF;
+        width: 80%;
+    }
+
+    .container__knowledge .stack-wrapper ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container__knowledge .stack-wrapper ul li {
+        margin: 1rem 0;
+    }
+
+    /* .container__knowledge .wrapper__knowledge div {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -898,7 +992,7 @@ footer ul li a i:hover {
 
     .container__knowledge .wrapper__knowledge .card-technologie {
         margin: 0.5rem;
-    }
+    } */
 
     .container__articles {
         height: 100%;
