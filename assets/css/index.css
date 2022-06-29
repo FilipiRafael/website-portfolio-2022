@@ -541,6 +541,7 @@ body nav .close-button {
     flex-direction: column;
     color: #FFF;
     width: 100%;
+    max-width: 800px;
 }
 
 .container__knowledge .stack-wrapper ul {
@@ -956,10 +957,10 @@ footer ul li a i:hover {
     .container__knowledge .wrapper-knowledge {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
         height: 100%;
-        padding-left: 3rem;
+        padding: 0 2rem 0 2.5rem;
     }
 
     .container__knowledge .stack-wrapper {
@@ -968,7 +969,7 @@ footer ul li a i:hover {
         align-items: center;
         flex-direction: column;
         color: #FFF;
-        width: 80%;
+        max-width: 320px;
     }
 
     .container__knowledge .stack-wrapper ul {
@@ -1081,13 +1082,6 @@ footer ul li a i:hover {
         font-size: 2rem;
     }
 }
-
-/* @media screen and (max-width: 768px) {
-    .top-button {
-        display: none;
-    }
-
-} */
 
 @media screen and (max-width: 999px) {
 
@@ -1207,6 +1201,49 @@ footer ul li a i:hover {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .container__knowledge {
+        background-image: url('../images/background-knowledge-mobile.svg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container__knowledge .title-knowledge h2 {
+        font-size: 2.2rem;
+    }
+
+    .container__knowledge .title-knowledge i {
+        font-size: 2rem;
+    }
+
+    .container__knowledge .wrapper-knowledge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 2rem 0 2.5rem;
+    }
+
+    .container__knowledge .stack-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #FFF;
+        max-width: 320px;
+    }
+
+    .container__knowledge .stack-wrapper ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container__knowledge .stack-wrapper ul li {
+        margin: 1rem 0;
     }
 
     .container__articles {
