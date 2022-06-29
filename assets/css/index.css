@@ -415,125 +415,6 @@ body nav .close-button {
     padding-left: 7rem;
 }
 
-/* .container__knowledge .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    width: 100%;
-    overflow: visible;
-}
-
-.container__knowledge .wrapper__knowledge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.container__knowledge .wrapper__knowledge div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.6rem;
-}
-
-.container__knowledge .card-technologie {
-    width: 120px;
-    height: 120px;
-    background-color: rgb(8, 8, 8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.8s;
-    border: 1px solid #55e0ff00;
-    margin: 0 1rem;
-    cursor: pointer;
-    border: 1px solid #55E1FF;
-} */
-
-/* .container__knowledge .card-technologie:hover, .container__knowledge .card-technologie:active {
-    box-shadow: 0 0 10px #47DDFF, 0 0 20px #0038FF, 0 0 40px #0038FF;
-} */
-
-/* .container__knowledge .card-technologie i {
-    color: #55E1FF;
-    font-size: 4rem;
-    transition: all 0.8s;
-}
-
-.container__knowledge .card-html:hover, .container__knowledge .card-html:active {
-    border: 1px solid #E45924;
-    color: #E45924;
-}
-
-.container__knowledge .card-html:hover i {
-    color: #E45924;
-}
-
-.container__knowledge .card-css:hover, .container__knowledge .card-css:active {
-    border: 1px solid #2660E4;
-    color: #2660E4;
-}
-
-.container__knowledge .card-css:hover i {
-    color: #2660E4;
-}
-
-.container__knowledge .card-js:hover, .container__knowledge .card-js:active {
-    border: 1px solid #EFD81D;
-    color: #EFD81D;
-}
-
-.container__knowledge .card-js:hover i {
-    color: #EFD81D;
-}
-
-.container__knowledge .card-sass:hover, .container__knowledge .card-sass:active {
-    border: 1px solid #C76794;
-    color: #C76794;
-}
-
-.container__knowledge .card-sass:hover i {
-    color: #C76794;
-}
-
-.container__knowledge .card-react:hover, .container__knowledge .card-react:active {
-    border: 1px solid #137ED1;
-    color: #137ED1;
-}
-
-.container__knowledge .card-react:hover i {
-    color: #137ED1;
-}
-
-.container__knowledge .card-nodejs:hover, .container__knowledge .card-nodejs:active {
-    border: 1px solid #81B640;
-    color: #81B640;
-}
-
-.container__knowledge .card-nodejs:hover i {
-    color: #81B640;
-}
-
-.container__knowledge .card-database:hover, .container__knowledge .card-database:active {
-    border: 1px solid #600191;
-    color: #600191;
-}
-
-.container__knowledge .card-database:hover i {
-    color: #600191;
-}
-
-.container__knowledge .card-git:hover, .container__knowledge .card-git:active {
-    border: 1px solid #E44C31;
-    color: #E44C31;
-}
-
-.container__knowledge .card-git:hover i {
-    color: #E44C31;
-} */
-
 .container__knowledge .stack-wrapper {
     display: flex;
     justify-content: center;
@@ -573,6 +454,9 @@ body nav .close-button {
 .container__knowledge .stack-wrapper ul li .header-stack h3 {
     font-weight: 300;
     font-size: 1rem;
+    /* padding: .1rem 0 0 2rem; */
+    border: 1.5px solid #08d2ffa7;
+    border-radius: 50%;
 }
 
 .container__knowledge .stack-wrapper ul li span {
