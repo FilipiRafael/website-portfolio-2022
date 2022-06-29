@@ -573,6 +573,8 @@ body nav .close-button {
 .container__knowledge .stack-wrapper ul li .header-stack h3 {
     font-weight: 300;
     font-size: 1rem;
+    border: 1.5px solid #08d2ff69;
+    border-radius: 50%;
 }
 
 .container__knowledge .stack-wrapper ul li span {
