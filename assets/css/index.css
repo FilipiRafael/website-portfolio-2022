@@ -576,6 +576,36 @@ body nav .close-button {
     box-shadow: 0 5px 15px rbg(0, 0, 0, 0.2);
 }
 
+.container__channel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/background-knowledge-transparent.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container__channel .title-channel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.container__channel i {
+    font-size: 2.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container__channel h2 {
+    color: #FFF;
+    font-weight: 700;
+    margin-right: 1rem;
+    font-size: 2.6rem;
+}
+
 .container__contact {
     display: flex;
     align-items: center;
@@ -814,9 +844,6 @@ footer ul li a i:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        /* background-image: url('../images/background-mobile-projetcs.svg');
-        background-size: cover;
-        background-position: center; */
         height: 100vh;
     }
 
@@ -919,6 +946,14 @@ footer ul li a i:hover {
         transform: translateY(0);
         opacity: 1;
         overflow: visible;
+    }
+
+    .container__channel .title-channel {
+        margin: 2rem 0;
+    }
+
+    .container__channel iframe {
+        max-width: 390px;
     }
 
     .container__contact {
